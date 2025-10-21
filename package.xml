@@ -6,5 +6,7 @@
   <maintainer email="migoerner@constructor.university">Michael Goerner</maintainer>
   <license>BSD</license>
 
+  <exec_depend>image_proc</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
   <buildtool_depend>catkin</buildtool_depend>
 </package>
