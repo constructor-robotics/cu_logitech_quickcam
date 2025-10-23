@@ -3,8 +3,10 @@
   <node name="cam" pkg="usb_cam" type="usb_cam_node">
     <param name="pixel_format" value="bayer_grbg8" />
 <rosparam ns="intrinsic_controls">
-exposure: 128
 brightness: 1
+contrast: 10
+exposure: 128
+gain: 75
 </rosparam>
   </node>
   <!-- debayer in cam/image_color -->
