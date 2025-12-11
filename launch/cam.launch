@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <node name="cam" pkg="usb_cam" type="usb_cam_node">
+    <param name="video_device" value="/dev/video-quickcam" />
     <param name="pixel_format" value="bayer_grbg8" />
 <rosparam ns="intrinsic_controls">
 brightness: 1
